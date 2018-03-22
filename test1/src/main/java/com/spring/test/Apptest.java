@@ -8,11 +8,11 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class Apptest {
 
 	public static void main(String[] args) {
-		System.out.println("111");
-		System.out.println("2222");
-		System.out.println("333");
+		
 		SpringApplication.run(Apptest.class, args);
-
+		System.out.println("1111111111");
+		System.out.println("22222");
+		System.out.println("333333");
 	}
 
 }
